@@ -1,14 +1,13 @@
-import { useEffect } from "react"
 import { useParams } from "react-router"
 
-const MOVIE_DB_URL = `https://api.themoviedb.org/3/discover/movie?language=fr-FR`;
+// const MOVIE_DB_URL = `https://api.themoviedb.org/3/discover/movie?language=fr-FR`;
 
-const filters: Record<string, string> = {
+/* const filters: Record<string, string> = {
     melancholic: "with_keywords=12345",
     romantic: "with_genres=10749",
     revengful: "with_keywords=67890",
 }
-
+ */
 export default function Mood() {
     const { mood } = useParams();
 
